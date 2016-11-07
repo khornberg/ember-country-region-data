@@ -1,27 +1,15 @@
 # Ember-country-region-data
 
-This README outlines the details of collaborating on this Ember addon.
+Exports `benkeen/country-region-data` as an Ember service.
 
-## Installation
+## Usage
 
-* `git clone <repository-url>` this repository
-* `cd ember-country-region-data`
-* `npm install`
-* `bower install`
+`import ConfigRegionData from 'ember-country-region-data/services/country-region-data';`
 
-## Running
+In your component, controller, etc.
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+`countryRegionData: new ConfigRegionData()`
 
-## Running Tests
+Access the data
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+`this.get('countryRegionData.data')`
