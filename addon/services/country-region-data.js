@@ -4743,23 +4743,11 @@ export default Ember.Service.extend({
     "countryShortCode":"FR",
     "regions":[
       {
-        "name":"Alsace",
-        "shortCode": "A"
+        "name":"Auvergne-Rhône-Alpes",
+        "shortCode": "V"
       },
       {
-        "name":"Aquitaine",
-        "shortCode": "B"
-      },
-      {
-        "name":"Auvergne",
-        "shortCode": "C"
-      },
-      {
-        "name":"Basse-Normandie",
-        "shortCode": "P"
-      },
-      {
-        "name":"Bourgogne",
+        "name":"Bourgogne-Franche-Comté",
         "shortCode": "D"
       },
       {
@@ -4767,68 +4755,40 @@ export default Ember.Service.extend({
         "shortCode": "E"
       },
       {
-        "name":"Centre",
+        "name":"Centre-Val de Loire",
         "shortCode": "F"
-      },
-      {
-        "name":"Champagne-Ardenne",
-        "shortCode": "G"
       },
       {
         "name":"Corse",
         "shortCode": "H"
       },
       {
-        "name":"Franche-Comté",
-        "shortCode": "I"
+        "name":"Grand Est",
+        "shortCode": "G"
       },
       {
-        "name":"Haute-Normandie",
-        "shortCode": "Q"
+        "name":"Hauts-de-France",
+        "shortCode": "S"
       },
       {
         "name":"Île-de-France",
         "shortCode": "J"
       },
       {
-        "name":"Languedoc-Roussillon",
-        "shortCode": "K"
+        "name":"Normandie",
+        "shortCode": "P"
       },
       {
-        "name":"Limousin",
-        "shortCode": "L"
-      },
-      {
-        "name":"Lorraine",
-        "shortCode": "M"
-      },
-      {
-        "name":"Midi-Pyrénées",
+        "name":"Occitanie",
         "shortCode": "N"
-      },
-      {
-        "name":"Nord-Pas-de-Calais",
-        "shortCode": "O"
       },
       {
         "name":"Pays de la Loire",
         "shortCode": "R"
       },
       {
-        "name":"Picardie",
-        "shortCode": "S"
-      },
-      {
-        "name":"Poitou-Charentes",
-        "shortCode": "T"
-      },
-      {
         "name":"Provence-Alpes-Cote d'Azur",
         "shortCode": "U"
-      },
-      {
-        "name":"Rhone-Alpes",
-        "shortCode": "V"
       },
       {
         "name":"Clipperton",
@@ -9758,6 +9718,10 @@ export default Ember.Service.extend({
         "shortCode":"CAM"
       },
       {
+        "name":"Ciudad de México",
+        "shortCode":"DIF"
+      },
+      {
         "name":"Chiapas",
         "shortCode":"CHP"
       },
@@ -9774,12 +9738,12 @@ export default Ember.Service.extend({
         "shortCode":"COL"
       },
       {
-        "name":"Distrito Federal",
-        "shortCode":"DIF"
-      },
-      {
         "name":"Durango",
         "shortCode":"DUR"
+      },
+      {
+        "name":"Estado de México",
+        "shortCode":"MEX"
       },
       {
         "name":"Guanajuato",
@@ -9798,11 +9762,7 @@ export default Ember.Service.extend({
         "shortCode":"JAL"
       },
       {
-        "name":"Mexico",
-        "shortCode":"MEX"
-      },
-      {
-        "name":"Michoacan de Ocampo",
+        "name":"Michoacán de Ocampo",
         "shortCode":"MIC"
       },
       {
@@ -9814,7 +9774,7 @@ export default Ember.Service.extend({
         "shortCode":"NAY"
       },
       {
-        "name":"Nuevo Leon",
+        "name":"Nuevo León",
         "shortCode":"NLE"
       },
       {
@@ -9826,7 +9786,7 @@ export default Ember.Service.extend({
         "shortCode":"PUE"
       },
       {
-        "name":"Queretaro de Arteaga",
+        "name":"Querétaro de Arteaga",
         "shortCode":"QUE"
       },
       {
@@ -9834,7 +9794,7 @@ export default Ember.Service.extend({
         "shortCode":"ROO"
       },
       {
-        "name":"San Luis Potosi",
+        "name":"San Luis Potosí",
         "shortCode":"SLP"
       },
       {
@@ -9858,11 +9818,11 @@ export default Ember.Service.extend({
         "shortCode":"TLA"
       },
       {
-        "name":"Veracruz-Llave",
+        "name":"Veracruz",
         "shortCode":"VER"
       },
       {
-        "name":"Yucatan",
+        "name":"Yucatán",
         "shortCode":"YUC"
       },
       {
